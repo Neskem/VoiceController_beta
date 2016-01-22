@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/contentTv"
+        android:text="Hello world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:padding="5dp"
+        android:background="#B467C5"
+        android:id="@+id/photoIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_signInBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:text="登出"
+        android:id="@+id/google_logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

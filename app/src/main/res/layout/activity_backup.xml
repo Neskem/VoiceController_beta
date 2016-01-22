@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/retangle_drawable"
+    tools:context=".Features.BackActivity">
+
+
+
+    <!-- To display picture taken -->
+
+    <!-- Videoview to preview recorded video -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/back_up_data"
+                android:src="@drawable/ic_backup_black_36dp"
+                android:onClick="StartBackUp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recovery_data"
+                android:src="@drawable/ic_settings_backup_restore_black_36dp"
+                android:onClick="StartRecovery" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

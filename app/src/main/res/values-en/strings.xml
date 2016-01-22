@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceController_beta</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="enter_title">enter your title</string>
+    <string name="content">content</string>
+    <string name="enter_content">enter your content</string>
+    <string name="address">address</string>
+    <string name="about">This is VoiceController application</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="version">Version：VoiceController_Beta</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="delete">delete</string>
+    <string name="delete_item">Are you want to delete %1$d items？</string>
+    <string name="default_color">default color</string>
+    <string name="default_color_summary">default summary color</string>
+    <string name="default_notify">default notify</string>
+    <string name="default_notify_summary">default summary notify</string>
+
+    <string-array name="notify_minutes_array">
+        <item>five minutes</item>
+        <item>ten minutes</item>
+        <item>twenty minutes</item>
+        <item>thirty minutes</item>
+        <item>sixty minutes</item>
+    </string-array>
+
+    <string-array name="notify_minutes_value_array">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string name="title_record">Record</string>
+    <string name="title_play">Play record</string>
+    <string name="record_play">Play</string>
+    <string name="record_new">Play again</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_update_location">update location</string>
+    <string name="message_update_location">Renew or update location?</string>
+    <string name="update">update</string>
+    <string name="clear">clean</string>
+
+    <string name="title_current_location">current location</string>
+    <string name="message_current_location">Are you want to update location right now?</string>
+
+    <string name="google_play_service_missing">This device does not install Google Play service</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+</resources>
